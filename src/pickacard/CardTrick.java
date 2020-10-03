@@ -61,7 +61,7 @@ public class CardTrick {
      
      for (int i=0;i<magicHand.length;i++){
       
-      if (magicHand[i].getSuit().equals(Luckycard.getValue()) {
+      if (magicHand[i].getSuit().equals(Luckycard.getValue())) {
        
        System.out.println("you guessed right!");
       }
