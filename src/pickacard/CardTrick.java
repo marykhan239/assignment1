@@ -61,13 +61,14 @@ public class CardTrick {
      
      for (int i=0;i<magicHand.length;i++){
       
-      if (magicHand[i].getSuit().equals(Luckycard.getValue) && magicHand[i].getValue()==valueguess){
+      if (magicHand[i].getSuit().equals(Luckycard.getValue()) {
+       
        System.out.println("you guessed right!");
       }
       else
       {
       
-       System.out.printlin("You guessed wrong"0;
+       System.out.printlin("You guessed wrong");
       
       }
        
