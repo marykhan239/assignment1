@@ -21,7 +21,9 @@ public class CardTrick {
     
     public static void main(String[] args) {
         
-        
+        Card Luckycard=new Card();
+         Luckycard.setValue(9);
+         Luckycard.setSuit("Clubs");
         
         Card[] magicHand = new Card[7];
 
@@ -37,14 +39,14 @@ public class CardTrick {
             System.out.println(magicHand[i].getSuit()+magicHand[i].getValue());*/
             
         
-        Scanner input = new Scanner(System.in);
+        /*Scanner input = new Scanner(System.in);
         System.out.println("Please guess a card by entering a suit like: Clubs,Spades,Diamonds,Hearts:");
         String suitguess = input.nextLine();
         System.out.println("Please enter a value between 0-13");
-        int valueguess=input.nextInt();
+        int valueguess=input.nextInt();*/
         
         
-        for (int i=0;i<magicHand.length;i++) 
+        /*for (int i=0;i<magicHand.length;i++) 
        {
           if(magicHand[i].getSuit().equals(suitguess) && magicHand[i].getValue()==valueguess){
           
@@ -55,7 +57,20 @@ public class CardTrick {
               
               System.out.println("You guessed wrong");
           }
+      }*/
+     
+     for (int i=0;i<magicHand.length;i++){
+      
+      if (magicHand[i].getSuit().equals(Luckycard.getValue) && magicHand[i].getValue()==valueguess){
+       System.out.println("you guessed right!");
       }
+      else
+      {
+      
+       System.out.printlin("You guessed wrong"0;
+      
+      }
+       
         
          
     }
